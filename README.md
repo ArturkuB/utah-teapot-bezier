@@ -1,47 +1,30 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a>
-    <img src="https://i.imgur.com/8dKQFaQ.png"   alt="Logo" width="300" height="220">
-  </a>
+<a>
+<img src="https://i.imgur.com/8dKQFaQ.png" alt="Logo" width="300" height="220">
+</a>
 
-  <h3 align="center">Utah utensils</h3>
+<h3 align="center">Utah utensils</h3>
 
-  <p align="center">
+<p align="center">
 
-  </p>
+</p>
 </p>
 
+## About the Project
+The project reads the coordinates of control points from a text file and uses them to calculate the coordinates, which are the corresponding Bézier patches during visualization. The shape of a Bézier surface patch is defined by an array of n x m control points Pi,j (where 0 <= i <= n and 0 <= j <= m) and is described by the relationship:
 
+<img src="https://i.imgur.com/cRSFBYJ.png" alt="wzor" width="700" height="90">
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Spis treści</h2></summary>
-    <li>
-      <a href="#o-projekcie">O Projekcie</a>
-    </li>
-    <li>
-      <a href="#sposób-uruchomienia">Sposób uruchomienia</a>
-  </li>
-   <li>
-      <a href="#prezentacja-obliczonych-płatów-Béziera">Prezentacja obliczonych płatów Béziera</a>
-  </li>
-</details>
+Where Bi,m(v), Bj,n(w) are Bernstein basis functions with a form analogous to that of Bézier curves and defined by the formula:
 
+<img src="https://i.imgur.com/3BbIA8A.png" alt="wzor2" width="700" height="90">
 
-## O Projekcie
-Projekt wczytuje z pliku tekstowego współrzędne punktów kontrolnych i na ich podstawie oblicza współrzędne, które podczas wizualizacji są już odpowiednimi płatami Béziera. Kształt płata powierzchni Béziera jest określany przez tablicę n x m punktów kontrolnych Pi,j (przy czym 0 <= i <= n oraz 0 <= j <= m) i opisywany zależnością:
+## How to run
 
- <img src="https://i.imgur.com/cRSFBYJ.png"   alt="wzor" width="700" height="90">
- 
- Przy czym Bi,m(v), Bj,n(w) są funkcjami bazowymi Bernsteina o postaci analogicznej jak dla krzywych Béziera i określanych formułą:
- 
- <img src="https://i.imgur.com/3BbIA8A.png"   alt="wzor2" width="700" height="90">
- 
-## Sposób uruchomienia
+To run the project, add it to any Java programming IDE and compile it.
 
-Aby uruchomić projekt należy dodać go do jakiekolwiek frameworka programistycznego Javy i skompilować.
-
-## Prezentacja obliczonych płatów Béziera
+## Presentation of calculated Bézier patches
 
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/_yiDqUa5ZXc/0.jpg)](https://www.youtube.com/watch?v=_yiDqUa5ZXc "Utah utensils")
